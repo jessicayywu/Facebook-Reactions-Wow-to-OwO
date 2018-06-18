@@ -12,3 +12,4 @@ https://userstyles.org/styles/161509/facebook-reactions-wow-to-owo
   
 ## Updates
 - ver. 1.0 - 2018/06/18 Released
+- ver. 1.1 - 2018/06/18 Fix: Tooltip Size for Chinese Version
