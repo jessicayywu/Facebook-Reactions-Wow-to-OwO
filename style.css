@@ -1,0 +1,114 @@
+@-moz-document url-prefix("https://www.facebook.com/")
+{
+/*
+	Facebook Reactions - Wow to OwO
+	-------------------------------
+
+	Updated: 2018/06/18
+*/
+/* ---------------------Reaction Menu--------------------- */
+/* Icon */
+  ._628b ._1ef2[data-reaction="3"] ._1ef0 canvas
+  {
+    display: none;
+  }
+
+  ._628b ._1ef2[data-reaction="3"] ._1ef0:after
+  {
+    content: "";
+    display: block;
+    background-image: url(https://i.imgur.com/qOPwJ8O.gif);
+    width: 39px;
+    height: 39px;
+    background-size: contain;
+  }
+
+/* Text */
+  ._628b ._1ef2[data-reaction="3"] ._d6l ._4sm1
+  {
+    visibility: hidden;
+    position: relative;
+  }
+
+  ._628b ._1ef2[data-reaction="3"] ._d6l ._4sm1:after
+  {
+    content: "OwO";
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .75);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 8px;
+    text-decoration: none;
+  }
+
+
+/* ---------------------Reactions--------------------- */
+/* Hide All */
+  ._4x9-
+  {
+    visibility: hidden;
+    position: relative;
+  }
+
+/* Display Icons */
+  ._4x9_._48-k.UFILinkBright,
+._9zc,
+._4x9_._48-k
+  {
+    visibility: visible;
+  }
+
+/* Other text */
+  ._9zc > i:after
+  {
+    padding: 0 2px;
+    position: absolute;
+    top: 2px;
+    left: 22px;
+    font-style: normal;
+  }
+
+  ._19kl._3j7m:after
+  {
+    content: "Love";
+  }
+
+  ._19kl._3j7o:after
+  {
+    content: "Haha";
+  }
+
+  ._19kl._3j7r:after
+  {
+    content: "Sad";
+  }
+
+  ._19kl._3j7q:after
+  {
+    content: "Angry";
+  }
+
+/* OwO Icon*/
+  ._19kl._3j7n,
+._9--._3j7n
+  {
+    background-image: url(https://i.imgur.com/qp58J8l.png);
+    background-position: 0 0;
+    background-size: contain;
+  }
+/* OwO Text */
+  ._19kl._3j7n:after
+  {
+    content: "OwO";
+  }
+}
