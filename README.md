@@ -1,4 +1,5 @@
 # Facebook Reactions - Wow to OwO
+![alt cover](https://raw.githubusercontent.com/jessicayywu/Dark-Theme-for-Dcard2/master/cover.png)
   
 ## Description
 An implementation of\
